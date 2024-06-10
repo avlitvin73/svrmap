@@ -1,0 +1,16 @@
+/* src/app/contact-map/contact-map.component.css */
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  svg {
+    border: 1px solid #000;
+  }
+  
+  .contact-dot {
+    fill: red;
+    cursor: pointer;
+  }
+  

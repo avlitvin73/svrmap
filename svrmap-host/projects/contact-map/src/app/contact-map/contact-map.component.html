@@ -1,0 +1,14 @@
+<!-- src/app/contact-map/contact-map.component.html -->
+<div class="map-container">
+    <svg [attr.width]="size" [attr.height]="size">
+      <circle *ngFor="let contact of contacts" 
+              [attr.cx]="getX(contact.position.radius, contact.position.angle)" 
+              [attr.cy]="getY(contact.position.radius, contact.position.angle)" 
+              r="5" 
+              (click)="selectContact(contact)"
+              class="contact-dot">
+        <title>{{ contact.name }}</title>
+      </circle>
+    </svg>
+  </div>
+  

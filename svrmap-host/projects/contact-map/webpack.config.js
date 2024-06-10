@@ -1,3 +1,4 @@
+// projects/contact-map/webpack.config.js
 const { ModuleFederationPlugin } = require('webpack').container;
 
 module.exports = {

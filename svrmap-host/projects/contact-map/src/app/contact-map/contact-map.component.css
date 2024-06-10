@@ -1,0 +1,17 @@
+/* src/app/contact-map/contact-map.component.css */
+.map-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+  }
+  
+  .contact-dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
